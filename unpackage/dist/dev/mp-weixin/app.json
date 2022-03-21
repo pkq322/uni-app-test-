@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/uni-style/uni-style",
+    "pages/message/message",
+    "pages/contact/contact",
+    "pages/detail/detail",
+    "pages/data/data",
+    "pages/list/list"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "test",
+    "navigationBarBackgroundColor": "#7ff000",
+    "backgroundColor": "#fff555",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#F0AD4E",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "样式",
+        "pagePath": "pages/uni-style/uni-style",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png"
+      },
+      {
+        "text": "上传",
+        "pagePath": "pages/message/message",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png"
+      },
+      {
+        "text": "导航",
+        "pagePath": "pages/contact/contact",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png"
+      },
+      {
+        "text": "数据",
+        "pagePath": "pages/data/data",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png"
+      },
+      {
+        "text": "list",
+        "pagePath": "pages/list/list",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

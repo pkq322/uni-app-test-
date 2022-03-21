@@ -1,0 +1,1 @@
+<view><view>组件1</view><view class="box2"><slot name="slot1"></slot><view>{{''+("父组件传递过来给子组件的值:"+title)+''}}</view><button type="default" data-event-opts="{{[['tap',[['sendNum',['$event']]]]]}}" bindtap="__e">子组件给父组件传值</button></view></view>
